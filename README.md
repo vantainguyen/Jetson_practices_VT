@@ -70,3 +70,17 @@ More suggestion
 To run a model on Jetson in the most efficient and optimized way, tensorrt and pycuda will help you shrink the model size and accelerate computational speed.
 
 Most of the AI courses both on the internet and in university focus on the training section but did not teach in the deployment section. This docker part is just a fraction of the deployment stage. It also depends on what you will do with Jetson nano. For the CV filed, there are collecting streams from IP cameras, push the result to the database, auto-restart the system with systemd, etc. Hence, as an AI engineer, to deliver a full product, you should able to do the full pipeline or at least knowing what should be included.
+
+
+---- Jetson Xavier
+https://www.youtube.com/watch?v=LuWYXKrQcJ8 
+1. Format a SD Memory card (e.g. 128 GB) using a SD card formatter (https://www.sdcard.org/downloads/formatter/)
+2. Download and install BalenaEtcher (https://www.balena.io/etcher/)
+3. Download jetpack for jetson Xavier NX (https://developer.nvidia.com/embedded/jetpack)
+4. Flashing the operating system on this card
+5. Insert the SD card into Jetson Xavier
+6. Plug other hardware and boot :) Congratulations!
+7. sudo apt-get install python3-pip ----> installing pip for python3 (should install anaconda or miniconda for the management)
+8. Install jetson-stats for monitoring performance
+
+
