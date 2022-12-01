@@ -91,3 +91,5 @@ https://developer.download.nvidia.com/embedded/L4T/r32-3-1_Release_v1.0/jetson_t
 
 https://www.youtube.com/watch?v=KROP46Wte4Q&ab_channel=JetsonHacks 
 
+  
+--- https://www.linuxbabe.com/virtualbox/how-to-increase-virtualbox-disk-size-for-dynamically-allocated-disks Disk partition for linux Virtualbox
