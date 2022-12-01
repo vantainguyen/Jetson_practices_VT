@@ -89,5 +89,5 @@ https://www.youtube.com/watch?v=D7lkth34rgM&list=PLXYLzZ3XzIbgtQYph1AYLvhFoBNbNT
 https://github.com/chriswernst/NVIDIA-Jetson-TX2-Setup/blob/master/README.md
 https://developer.download.nvidia.com/embedded/L4T/r32-3-1_Release_v1.0/jetson_tx2_developer_kit_user_guide.pdf?t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9
 
-
+https://www.youtube.com/watch?v=KROP46Wte4Q&ab_channel=JetsonHacks 
 
