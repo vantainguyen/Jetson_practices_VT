@@ -83,4 +83,11 @@ https://www.youtube.com/watch?v=LuWYXKrQcJ8
 7. sudo apt-get install python3-pip ----> installing pip for python3 (should install anaconda or miniconda for the management)
 8. Install jetson-stats for monitoring performance
 
+---- Jetson TX2
+https://www.youtube.com/watch?v=s1QDsa6SzuQ&ab_channel=JetsonHacks
+https://www.youtube.com/watch?v=D7lkth34rgM&list=PLXYLzZ3XzIbgtQYph1AYLvhFoBNbNTp8G&index=2&ab_channel=JetsonHacks
+https://github.com/chriswernst/NVIDIA-Jetson-TX2-Setup/blob/master/README.md
+https://developer.download.nvidia.com/embedded/L4T/r32-3-1_Release_v1.0/jetson_tx2_developer_kit_user_guide.pdf?t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9
+
+
 
