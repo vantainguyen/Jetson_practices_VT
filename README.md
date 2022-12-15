@@ -1,4 +1,6 @@
 # Jetson_practices_VT
+https://docs.nvidia.com/dgx/nvidia-container-runtime-upgrade/index.html
+
 https://medium.com/super-ai-engineer/docker-in-jetson-nano-for-training-ai-model-89cd90550bac
 0. Install Docker for Jetson nano
 Fortunately, docker has already installed after you flashed the Jetson with Jetpack. The version I used is JetPack 4.5 (L4T R32.5.0), the latest version available.
