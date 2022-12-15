@@ -8,6 +8,10 @@ ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
 # Install dependencies:
 COPY requirements.txt .
+
+RUN apt update
+RUN apt-get install -y libglib2.0-0 libsm6 libxrender1 libxext6
+
 RUN pip install -r requirements.txt
 
 
