@@ -1,3 +1,5 @@
+#https://stackoverflow.com/questions/62786028/importerror-libgthread-2-0-so-0-cannot-open-shared-object-file-no-such-file-o
+
 FROM python:3.8.16-buster
 
 WORKDIR /usr/src/app
