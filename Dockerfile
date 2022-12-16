@@ -18,7 +18,7 @@ ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
 # copying all files over
 #COPY . /app
-#RUN apt-get install gcc python3-dev : To be installed inside the docker container before install psutil
+
 # Install dependencies:
 COPY requirements.txt .
 
@@ -27,8 +27,13 @@ COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 
-RUN apt-get update
-RUN apt-get install -y libglib2.0-0 libsm6 libxrender1 libxext6
+# ----------------------IMPORTANCE------------------------------
+##: To be installed inside the docker container 
+# apt-get install gcc python3-dev 
+# pip install psutil
+# apt-get update
+# apt-get install -y libglib2.0-0 libsm6 libxrender1 libxext6
+# --------------------------------------------------------------
 
 # RUN apt-get update
 # RUN apt-get install ffmpeg libsm6 libxext6  -y
