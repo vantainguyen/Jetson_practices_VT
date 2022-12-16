@@ -28,6 +28,9 @@ RUN apt-get install -yq libgtk2.0-dev
 
 RUN pip install -r requirements.txt
 
+# RUN apt-get update
+# RUN apt-get install ffmpeg libsm6 libxext6  -y
+
 
 # docker run -it --name myapp --rm \
 #     --volume $(pwd):/usr/src/app \
