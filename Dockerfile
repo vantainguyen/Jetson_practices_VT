@@ -10,23 +10,25 @@ ENV VIRTUAL_ENV=/opt/venv
 RUN python3 -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
-WORKDIR /app
-ADD . /app
+# WORKDIR /app
+# ADD . /app
 
 # # Install dependencies
 # RUN pip install -r requirements.txt
 
 # copying all files over
-COPY . /app
-
+#COPY . /app
+#RUN apt-get install gcc python3-dev : To be installed inside the docker container before install psutil
 # Install dependencies:
 COPY requirements.txt .
 
-RUN apt update
-RUN apt-get install -y libglib2.0-0 libsm6 libxrender1 libxext6
-RUN apt-get install -yq libgtk2.0-dev
+
+#RUN apt-get install -yq libgtk2.0-dev
 
 RUN pip install -r requirements.txt
+
+RUN apt-get update
+RUN apt-get install -y libglib2.0-0 libsm6 libxrender1 libxext6
 
 # RUN apt-get update
 # RUN apt-get install ffmpeg libsm6 libxext6  -y
@@ -36,3 +38,33 @@ RUN pip install -r requirements.txt
 #     --volume $(pwd):/usr/src/app \
 #     --net=host myapp-dev:latest \
 #     sh
+
+### current running
+
+# # syntax=docker/dockerfile:1
+
+# FROM python:3.8-slim-buster
+
+# WORKDIR /usr/src/app
+
+# ENV VIRTUAL_ENV=/opt/venv
+# RUN python3 -m venv $VIRTUAL_ENV
+# ENV PATH="$VIRTUAL_ENV/bin:$PATH" 
+
+# COPY requirements.txt ./
+
+# #COPY detect.py ./
+# #COPY utils ./utils
+# #COPY runs1 ./runs1   
+# #COPY data ./data
+# #COPY models ./models
+
+
+# RUN pip3 install -r requirements.txt
+
+# RUN apt-get update
+# RUN apt-get install -y libglib2.0-0 libsm6 libxrender1 libxext6
+
+# #RUN python detect.py --weights ./runs/train/exp/weights/best.pt --img 640 --conf 0.50 --source data/images --hide-conf --hide-labels
+
+
