@@ -1,0 +1,19 @@
+#----------------Create image from existing container and push it to docker hub--------------------
+nginx_base is a running container
+
+Create an Image From a Container 
+docker commit nginx_base
+sha256:0c17f0798823c7febc5a67
+docker images -a
+
+Tag the Image
+docker tag 0c17f0798823 hello_world_nginx
+
+Create Images With Tags
+docker commit nginx_base hello_world_nginx
+
+#--------------------------------------Push newly created images to docker hub---------------------
+
+docker tag image-to-push vantainguyen/image-to-push
+docker login
+docker push vantainguyen/image-to-push
