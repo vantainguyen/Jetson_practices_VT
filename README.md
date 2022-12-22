@@ -99,3 +99,7 @@ https://www.youtube.com/watch?v=KROP46Wte4Q&ab_channel=JetsonHacks
 
   
 --- https://www.linuxbabe.com/virtualbox/how-to-increase-virtualbox-disk-size-for-dynamically-allocated-disks Disk partition for linux Virtualbox
+
+
+## Checking TensorRT version
+dpkg -l | grep tensorrt
