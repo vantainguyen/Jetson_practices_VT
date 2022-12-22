@@ -1,6 +1,8 @@
 # Jetson_practices_VT
 https://docs.nvidia.com/dgx/nvidia-container-runtime-upgrade/index.html
 
+# Buildin OpenCV with CUDA: https://www.youtube.com/watch?v=oKaLyow7hWU and github: https://github.com/JetsonHacksNano/buildOpenCV
+
 Testing docker runtime:
 
 docker run --runtime=nvidia --rm nvidia/cuda nvidia-smi
