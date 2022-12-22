@@ -1,7 +1,7 @@
 # Jetson_practices_VT
 https://docs.nvidia.com/dgx/nvidia-container-runtime-upgrade/index.html
 
-# Buildin OpenCV with CUDA: https://www.youtube.com/watch?v=oKaLyow7hWU and github: https://github.com/JetsonHacksNano/buildOpenCV
+Buildin OpenCV with CUDA: https://www.youtube.com/watch?v=oKaLyow7hWU and github: https://github.com/JetsonHacksNano/buildOpenCV; https://github.com/jetsonhacks/buildOpenCVTX2
 
 Testing docker runtime:
 
