@@ -1,5 +1,13 @@
 # Jetson_practices_VT
 https://docs.nvidia.com/dgx/nvidia-container-runtime-upgrade/index.html
+# Monitoring Jetson performance
+Firstly, installed the jetson-stats package.
+
+sudo -H pip install -U jetson-stats
+
+Then run
+
+sudo jtop
 
 Buildin OpenCV with CUDA: https://www.youtube.com/watch?v=oKaLyow7hWU and github: https://github.com/JetsonHacksNano/buildOpenCV; https://github.com/jetsonhacks/buildOpenCVTX2
 
