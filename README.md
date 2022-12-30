@@ -1,5 +1,13 @@
 # Jetson_practices_VT
 https://docs.nvidia.com/dgx/nvidia-container-runtime-upgrade/index.html
+
+# Install onnx
+sudo apt-get install python-pip protobuf-compiler libprotoc-dev
+$ pip install Cython --user
+$ pip install onnx --user --verbose
+
+
+
 # Monitoring Jetson performance
 Firstly, installed the jetson-stats package.
 
