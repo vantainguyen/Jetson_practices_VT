@@ -1,3 +1,7 @@
+# Camera usage
+https://developer.nvidia.com/embedded/learn/tutorials/first-picture-csi-usb-camera
+
+
 # Jetson_practices_VT
 https://docs.nvidia.com/dgx/nvidia-container-runtime-upgrade/index.html
 
