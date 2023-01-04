@@ -1,2 +1,6 @@
 
 python3 ready_track_1.py --source ./yolov5/data/images/shvid.MOV --yolo-weights ./yolov5/runs/train/exp/weights/best.pt  --reid-weights osnet_x0_25_market1501.pt --save-vid
+
+
+# Combining Faster R CNN with deepsort
+https://stackoverflow.com/questions/62957616/faster-r-cnn-object-detection-and-deep-sort-tracking-algorithm-integration
