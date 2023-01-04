@@ -1,3 +1,6 @@
+# Boot from USB
+https://www.youtube.com/watch?v=53rRMr1IpWs
+
 # Camera usage
 https://developer.nvidia.com/embedded/learn/tutorials/first-picture-csi-usb-camera
 
