@@ -1,7 +1,7 @@
 
 # image sizes need to be a multiple of 32 strides
 
-python3 ready_track_1.py --source ./yolov5/data/images/shvid.MOV --yolo-weights ./yolov5/runs/train/exp/weights/best.pt  --reid-weights osnet_x0_25_market1501.pt --save-vid
+python3 ready_track_1.py --source ./yolov5/data/images/shvid.MOV --yolo-weights ./yolov5/runs/train/exp/weights/best.pt --img 640  --reid-weights osnet_x0_25_market1501.pt --save-vid
 
 python3 export.py --device 0 --weights ./yolov5/runs/train/exp/weights/best.pt --include torchscript onnx openvino engine coreml tflite
 
