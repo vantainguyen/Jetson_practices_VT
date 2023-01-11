@@ -5,3 +5,8 @@ lsusb -d 0955:7c18 -vvv #--checking usb cameras
 https://askubuntu.com/questions/348838/how-to-check-available-webcams-from-the-command-line
 
 https://github.com/alliedvision/gst-vimbasrc
+
+sudo apt install python3.7-venv
+python3.7 -m venv env37
+source env37/bin/activate
+deactivate (when done using the environment)
