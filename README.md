@@ -1,3 +1,6 @@
+# Create new environment
+https://stackoverflow.com/questions/52816156/how-to-create-virtual-environment-for-python-3-7-0
+
 # Boot from USB
 https://www.youtube.com/watch?v=53rRMr1IpWs
 
