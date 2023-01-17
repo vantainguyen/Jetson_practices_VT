@@ -1,3 +1,5 @@
+# Vimba installation error: https://www.codethebest.com/modulenotfounderror-no-module-named-skbuild-solved/ 
+
 # Create new environment
 https://stackoverflow.com/questions/52816156/how-to-create-virtual-environment-for-python-3-7-0
 
