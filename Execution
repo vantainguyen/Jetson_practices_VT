@@ -10,3 +10,20 @@ python detect.py --weights ./runs/train/exp/weights/best.pt --img 640 --conf 0.5
 
 # Combining Faster R CNN with deepsort
 https://stackoverflow.com/questions/62957616/faster-r-cnn-object-detection-and-deep-sort-tracking-algorithm-integration
+
+# Working with bash
+
+-------------------------#---------------------------
+Creating run.sh script
+
+#! /bin/bash
+python hello.py
+
+mark it as executable file
+
+chmod +x run.sh
+
+then run it
+
+./run.sh
+
