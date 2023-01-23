@@ -1,0 +1,21 @@
+# Saving pointCloud:
+https://github.com/Livox-SDK/Livox-SDK/wiki/How-to-use-lvx-file-under-ros
+1.2.1 Git clone Livox-SDK
+git clone https://github.com/Livox-SDK/Livox-SDK.git
+
+1.2.2 Connect Lidar device and save the lvx file
+Open the terminal window under this file path: ../Livox_SDK/build/sample/lidar_lvx_file
+Execute the follow command: ./lidar_lvx_sample
+Connect specify device: -c “Lidar SN”
+Set the duration of recorded point cloud data: -t 10 (10 second)
+
+# Converting PointCloud to ROSBAG
+
+git clone https://github.com/Livox-SDK/livox_ros_driver.git ws_livox/src
+
+../ws_livox
+
+roslaunch livox_ros_driver lvx_to_rosbag.launch lvx_file_path:="/home/livox/test.lvx"
+
+## Launching ros lidar:
+roslaunch livox_ros_driver livox_lidar_rviz.launch bd_list:="0TFDG3B006H2Z11&1HDDG8M00100191"
