@@ -5,7 +5,7 @@ strongsort or ocsort
 python3 ready_track_1.py --tracking-method ocsort --imgsz 640 --source ./yolov5/data/images/shvid.MOV --yolo-weights ./yolov5/runs/train/exp/weights/best.pt  --reid-weights osnet_x0_25_market1501.pt --save-vid
 
 python3 export.py --device 0 --weights ./yolov5/runs/train/exp/weights/best.pt --include torchscript onnx openvino engine coreml tflite
-
+# execute the following to use tensorrt with python: sudo apt-get install python3-libnvinfer-dev 
 python detect.py --weights ./runs/train/exp/weights/best.pt --img 640 --conf 0.50 --source data/images --hide-conf --hide-labels
 
 # Combining Faster R CNN with deepsort
