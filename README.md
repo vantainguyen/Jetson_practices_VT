@@ -1,6 +1,8 @@
 # Vimba installation error skbuild fixed
 https://www.codethebest.com/modulenotfounderror-no-module-named-skbuild-solved/ 
 
+# Installing torch https://docs.nvidia.com/deeplearning/frameworks/install-pytorch-jetson-platform/index.html
+
 # Create new environment
 https://stackoverflow.com/questions/52816156/how-to-create-virtual-environment-for-python-3-7-0
 
