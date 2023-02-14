@@ -1,6 +1,10 @@
 # Vimba installation error skbuild fixed
 https://www.codethebest.com/modulenotfounderror-no-module-named-skbuild-solved/ 
 
+The script is just trying to support both CPU and GPU mode.
+You can launch the script with python3 [app.py] --device cpu to deploy a model on CPU.
+And python3 [app.py] --device gpu for GPU case.
+
 # Installing torch https://docs.nvidia.com/deeplearning/frameworks/install-pytorch-jetson-platform/index.html
 
 # Create new environment
