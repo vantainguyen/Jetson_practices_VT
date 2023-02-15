@@ -5,6 +5,10 @@ The script is just trying to support both CPU and GPU mode.
 You can launch the script with python3 [app.py] --device cpu to deploy a model on CPU.
 And python3 [app.py] --device gpu for GPU case.
 
+# For customized installation on Jetson (torch, onnxruntime, OPENCV GPU ...)
+https://elinux.org/Jetson_Zoo
+
+
 # Installing torch https://docs.nvidia.com/deeplearning/frameworks/install-pytorch-jetson-platform/index.html
 
 # Create new environment
