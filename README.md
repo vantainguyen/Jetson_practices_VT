@@ -1,6 +1,9 @@
 # Vimba installation error skbuild fixed
 https://www.codethebest.com/modulenotfounderror-no-module-named-skbuild-solved/ 
 
+# Yolov5 and deepsort in c++
+https://gitee.com/mumuU1156/yolov5-deepsort-tensorrt
+
 The script is just trying to support both CPU and GPU mode.
 You can launch the script with python3 [app.py] --device cpu to deploy a model on CPU.
 And python3 [app.py] --device gpu for GPU case.
