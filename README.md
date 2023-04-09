@@ -1,4 +1,5 @@
 # API development: https://www.youtube.com/watch?v=GMppyAPbLYk
+# file watcher: https://stackoverflow.com/questions/23479511/running-a-python-script-when-a-new-file-is-created
 
 # Vimba installation error skbuild fixed
 https://www.codethebest.com/modulenotfounderror-no-module-named-skbuild-solved/ 
