@@ -46,7 +46,7 @@ Then run
 
 sudo jtop
 
-Buildin OpenCV with CUDA: https://www.youtube.com/watch?v=oKaLyow7hWU and github: https://github.com/JetsonHacksNano/buildOpenCV; https://github.com/jetsonhacks/buildOpenCVTX2
+Buildin OpenCV with CUDA: https://github.com/mdegans/nano_build_opencv; https://www.youtube.com/watch?v=oKaLyow7hWU and github: https://github.com/JetsonHacksNano/buildOpenCV; https://github.com/jetsonhacks/buildOpenCVTX2
 
 Testing docker runtime:
 
