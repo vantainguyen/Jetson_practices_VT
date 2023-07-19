@@ -150,3 +150,8 @@ https://www.youtube.com/watch?v=KROP46Wte4Q&ab_channel=JetsonHacks
 
 ## Checking TensorRT version
 dpkg -l | grep tensorrt
+
+## Stop a process
+ps aux | grep printing.py
+
+kill process_ID
